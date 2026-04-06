@@ -1,0 +1,501 @@
+customer_id,age,user_type,city_tier,order_frequency,avg_order_value,discount_sensitivity,preferred_cuisine,order_time,repeat_probability,platform_preference
+1,20,Student,Tier1,10,264,0.86,North Indian,Dinner,0.79,Zomato
+2,21,Student,Tier2,8,200,0.98,Fast Food,Dinner,0.61,Zomato
+3,20,Student,Tier2,8,194,0.96,Biryani,Dinner,0.63,Zomato
+4,28,Working,Tier1,7,358,0.74,Fast Food,Dinner,0.69,Zomato
+5,24,Student,Tier1,7,298,0.94,North Indian,Dinner,0.73,Zomato
+6,18,Student,Tier1,13,301,0.87,Street Food,Dinner,0.75,Zomato
+7,25,Student,Tier1,8,283,0.88,Biryani,Dinner,0.66,Zomato
+8,31,Working,Tier2,7,191,0.75,Fast Food,Dinner,0.82,Zomato
+9,20,Student,Tier2,10,257,0.83,North Indian,Lunch,0.9,Zomato
+10,36,Working,Tier1,5,288,0.64,North Indian,Dinner,0.75,Zomato
+11,23,Student,Tier1,11,274,0.86,North Indian,Dinner,0.89,Zomato
+12,32,Working,Tier2,6,199,0.54,North Indian,Dinner,0.6,Zomato
+13,27,Working,Tier1,6,352,0.65,Street Food,Lunch,0.69,Zomato
+14,30,Working,Tier2,6,234,0.52,North Indian,Lunch,0.67,Zomato
+15,31,Working,Tier1,4,350,0.5,Street Food,Dinner,0.69,Zomato
+16,27,Working,Tier2,6,194,0.55,Fast Food,Dinner,0.79,Zomato
+17,26,Working,Tier2,8,219,0.71,Biryani,Lunch,0.72,Zomato
+18,21,Student,Tier2,11,255,0.81,Street Food,Lunch,0.84,Zomato
+19,19,Student,Tier1,7,253,0.84,Fast Food,Dinner,0.84,Zomato
+20,18,Student,Tier1,9,356,0.94,North Indian,Lunch,0.67,Zomato
+21,30,Working,Tier1,9,341,0.63,North Indian,Lunch,0.66,Zomato
+22,19,Student,Tier2,12,193,0.82,North Indian,Dinner,0.67,Zomato
+23,28,Working,Tier1,7,277,0.7,Street Food,Dinner,0.83,Zomato
+24,34,Working,Tier2,6,197,0.7,North Indian,Dinner,0.79,Zomato
+25,20,Student,Tier1,11,281,0.81,Biryani,Lunch,0.71,Zomato
+26,32,Working,Tier1,9,338,0.6,Biryani,Dinner,0.61,Zomato
+27,29,Working,Tier1,6,332,0.64,Fast Food,Dinner,0.72,Zomato
+28,25,Student,Tier2,9,246,0.93,North Indian,Lunch,0.68,Zomato
+29,31,Working,Tier1,9,348,0.57,Street Food,Dinner,0.86,Zomato
+30,28,Working,Tier1,6,360,0.59,Fast Food,Dinner,0.65,Zomato
+31,18,Student,Tier1,13,271,0.92,Fast Food,Dinner,0.64,Zomato
+32,36,Working,Tier2,6,198,0.53,Street Food,Lunch,0.63,Zomato
+33,36,Working,Tier1,5,270,0.67,Street Food,Dinner,0.76,Zomato
+34,32,Working,Tier1,5,261,0.69,Biryani,Dinner,0.67,Zomato
+35,36,Working,Tier2,9,275,0.64,Biryani,Dinner,0.86,Zomato
+36,28,Working,Tier1,7,328,0.57,Biryani,Dinner,0.8,Zomato
+37,35,Working,Tier1,9,305,0.7,Street Food,Lunch,0.84,Zomato
+38,26,Working,Tier2,7,246,0.72,North Indian,Lunch,0.78,Zomato
+39,36,Working,Tier2,4,265,0.78,Street Food,Lunch,0.78,Zomato
+40,25,Student,Tier2,9,214,0.82,Biryani,Dinner,0.71,Zomato
+41,19,Student,Tier1,9,303,0.99,Biryani,Lunch,0.81,Zomato
+42,22,Student,Tier1,10,260,0.92,Street Food,Dinner,0.89,Zomato
+43,28,Working,Tier1,9,293,0.8,Biryani,Lunch,0.63,Zomato
+44,32,Working,Tier2,7,202,0.54,Fast Food,Dinner,0.65,Zomato
+45,23,Student,Tier1,7,262,0.85,North Indian,Dinner,0.67,Zomato
+46,31,Working,Tier1,7,286,0.74,North Indian,Dinner,0.86,Zomato
+47,20,Student,Tier1,7,302,1,Biryani,Dinner,0.8,Zomato
+48,25,Student,Tier1,12,281,0.83,Fast Food,Lunch,0.84,Zomato
+49,21,Student,Tier1,6,367,1,Fast Food,Dinner,0.69,Zomato
+50,28,Working,Tier2,7,276,0.66,Biryani,Dinner,0.79,Zomato
+51,30,Working,Tier1,6,288,0.68,North Indian,Dinner,0.71,Zomato
+52,34,Working,Tier1,6,284,0.79,North Indian,Lunch,0.61,Zomato
+53,22,Student,Tier2,7,261,0.92,Fast Food,Dinner,0.77,Zomato
+54,30,Working,Tier2,6,202,0.55,Fast Food,Lunch,0.74,Zomato
+55,26,Working,Tier2,7,185,0.57,Biryani,Dinner,0.87,Zomato
+56,31,Working,Tier2,5,243,0.6,North Indian,Lunch,0.74,Zomato
+57,28,Working,Tier1,7,282,0.5,North Indian,Dinner,0.64,Zomato
+58,21,Student,Tier2,9,220,0.86,Street Food,Lunch,0.72,Zomato
+59,22,Student,Tier1,13,273,0.98,Street Food,Dinner,0.9,Zomato
+60,19,Student,Tier1,8,270,0.96,Fast Food,Dinner,0.8,Zomato
+61,19,Student,Tier2,11,181,0.97,North Indian,Lunch,0.79,Zomato
+62,23,Student,Tier1,7,339,0.95,Fast Food,Lunch,0.63,Zomato
+63,30,Working,Tier1,5,344,0.67,Street Food,Dinner,0.84,Zomato
+64,24,Student,Tier2,13,226,0.84,Street Food,Dinner,0.84,Zomato
+65,33,Working,Tier1,5,294,0.66,North Indian,Dinner,0.76,Zomato
+66,25,Student,Tier1,7,268,0.84,Fast Food,Dinner,0.85,Zomato
+67,24,Student,Tier1,7,305,1,Biryani,Dinner,0.67,Zomato
+68,31,Working,Tier2,8,271,0.51,Fast Food,Lunch,0.63,Zomato
+69,24,Student,Tier2,9,186,0.85,Fast Food,Dinner,0.75,Zomato
+70,34,Working,Tier2,9,258,0.66,Fast Food,Dinner,0.81,Zomato
+71,31,Working,Tier1,8,349,0.76,North Indian,Dinner,0.74,Zomato
+72,30,Working,Tier1,9,297,0.7,Biryani,Lunch,0.82,Zomato
+73,32,Working,Tier1,6,253,0.68,Fast Food,Lunch,0.81,Zomato
+74,36,Working,Tier1,5,264,0.77,Biryani,Dinner,0.86,Zomato
+75,35,Working,Tier2,8,207,0.56,North Indian,Dinner,0.73,Zomato
+76,29,Working,Tier1,9,287,0.77,North Indian,Dinner,0.68,Zomato
+77,32,Working,Tier1,4,261,0.59,North Indian,Lunch,0.85,Zomato
+78,19,Student,Tier2,11,252,0.87,Fast Food,Dinner,0.71,Zomato
+79,22,Student,Tier1,13,362,0.81,Biryani,Dinner,0.87,Zomato
+80,30,Working,Tier1,9,314,0.68,Fast Food,Dinner,0.85,Zomato
+81,28,Working,Tier1,5,283,0.59,Street Food,Dinner,0.67,Zomato
+82,25,Student,Tier2,8,193,0.85,North Indian,Dinner,0.62,Zomato
+83,33,Working,Tier2,4,184,0.56,North Indian,Lunch,0.85,Zomato
+84,32,Working,Tier1,8,334,0.74,North Indian,Dinner,0.61,Zomato
+85,22,Student,Tier1,12,267,0.82,Fast Food,Dinner,0.63,Zomato
+86,24,Student,Tier1,10,322,0.89,North Indian,Lunch,0.89,Zomato
+87,25,Student,Tier1,8,290,0.83,North Indian,Dinner,0.73,Zomato
+88,28,Working,Tier2,6,195,0.51,Biryani,Lunch,0.71,Zomato
+89,18,Student,Tier1,6,279,0.97,Fast Food,Dinner,0.74,Zomato
+90,18,Student,Tier2,7,210,0.84,Biryani,Dinner,0.66,Zomato
+91,27,Working,Tier2,7,192,0.6,Biryani,Dinner,0.83,Zomato
+92,36,Working,Tier1,7,322,0.77,Biryani,Lunch,0.74,Zomato
+93,34,Working,Tier1,5,253,0.78,Fast Food,Lunch,0.66,Zomato
+94,22,Student,Tier2,10,182,0.91,North Indian,Lunch,0.61,Zomato
+95,24,Student,Tier1,10,269,0.96,North Indian,Lunch,0.62,Zomato
+96,28,Working,Tier2,4,246,0.61,Biryani,Dinner,0.74,Zomato
+97,23,Student,Tier1,6,275,0.93,Street Food,Dinner,0.79,Zomato
+98,21,Student,Tier1,12,295,0.85,Street Food,Dinner,0.82,Zomato
+99,36,Working,Tier1,7,321,0.72,Street Food,Dinner,0.65,Zomato
+100,25,Student,Tier1,8,259,0.88,Biryani,Dinner,0.69,Zomato
+101,30,Working,Tier1,8,265,0.62,Street Food,Dinner,0.87,Zomato
+102,33,Working,Tier1,6,258,0.75,Fast Food,Lunch,0.69,Zomato
+103,25,Student,Tier2,13,236,0.85,North Indian,Dinner,0.8,Zomato
+104,18,Student,Tier2,13,271,0.93,North Indian,Lunch,0.69,Zomato
+105,35,Working,Tier2,6,191,0.68,Fast Food,Dinner,0.69,Zomato
+106,34,Working,Tier1,4,265,0.74,Street Food,Dinner,0.72,Zomato
+107,21,Student,Tier1,8,296,0.96,Fast Food,Dinner,0.87,Zomato
+108,19,Student,Tier1,12,275,0.92,North Indian,Lunch,0.71,Zomato
+109,23,Student,Tier1,8,268,0.92,Biryani,Dinner,0.89,Zomato
+110,29,Working,Tier1,8,295,0.57,Fast Food,Dinner,0.6,Zomato
+111,36,Working,Tier1,7,323,0.69,North Indian,Dinner,0.84,Zomato
+112,31,Working,Tier2,9,219,0.55,Fast Food,Lunch,0.67,Zomato
+113,35,Working,Tier1,4,294,0.54,Fast Food,Dinner,0.89,Zomato
+114,24,Student,Tier2,13,180,0.83,Biryani,Dinner,0.78,Zomato
+115,21,Student,Tier1,11,274,0.94,Street Food,Lunch,0.66,Zomato
+116,32,Working,Tier1,5,274,0.59,North Indian,Lunch,0.77,Zomato
+117,19,Student,Tier1,6,368,0.89,North Indian,Lunch,0.82,Zomato
+118,18,Student,Tier1,10,331,0.9,Street Food,Dinner,0.74,Zomato
+119,31,Working,Tier2,6,229,0.54,Biryani,Dinner,0.64,Zomato
+120,29,Working,Tier2,9,245,0.58,Biryani,Dinner,0.76,Zomato
+121,27,Working,Tier1,7,311,0.66,Biryani,Lunch,0.81,Zomato
+122,20,Student,Tier2,8,243,0.85,Biryani,Dinner,0.62,Zomato
+123,31,Working,Tier2,6,192,0.67,North Indian,Dinner,0.64,Zomato
+124,35,Working,Tier2,4,192,0.53,Street Food,Dinner,0.71,Zomato
+125,29,Working,Tier2,7,184,0.59,Biryani,Lunch,0.8,Zomato
+126,30,Working,Tier1,6,334,0.51,North Indian,Lunch,0.85,Zomato
+127,30,Working,Tier1,7,292,0.72,Street Food,Lunch,0.84,Zomato
+128,27,Working,Tier1,4,273,0.77,Street Food,Dinner,0.63,Zomato
+129,23,Student,Tier2,8,207,0.92,North Indian,Dinner,0.74,Zomato
+130,31,Working,Tier1,5,322,0.68,North Indian,Lunch,0.89,Zomato
+131,33,Working,Tier2,9,268,0.66,North Indian,Lunch,0.63,Zomato
+132,21,Student,Tier1,13,314,0.89,Street Food,Dinner,0.65,Zomato
+133,19,Student,Tier1,6,256,0.83,Biryani,Lunch,0.78,Zomato
+134,24,Student,Tier2,9,278,0.99,North Indian,Dinner,0.85,Zomato
+135,27,Working,Tier2,6,228,0.63,Fast Food,Dinner,0.71,Zomato
+136,23,Student,Tier1,12,310,0.86,Fast Food,Dinner,0.66,Zomato
+137,31,Working,Tier1,8,265,0.67,North Indian,Dinner,0.76,Zomato
+138,32,Working,Tier2,6,192,0.5,Street Food,Dinner,0.84,Zomato
+139,36,Working,Tier2,8,239,0.59,Street Food,Lunch,0.72,Zomato
+140,24,Student,Tier1,10,265,0.89,Street Food,Dinner,0.76,Zomato
+141,24,Student,Tier1,7,314,0.82,Fast Food,Dinner,0.8,Zomato
+142,22,Student,Tier1,12,337,0.93,Fast Food,Dinner,0.71,Zomato
+143,26,Working,Tier1,4,262,0.67,Street Food,Dinner,0.77,Zomato
+144,27,Working,Tier1,5,298,0.68,North Indian,Dinner,0.69,Zomato
+145,26,Working,Tier2,8,184,0.63,Street Food,Dinner,0.87,Zomato
+146,21,Student,Tier2,6,231,0.93,Street Food,Lunch,0.72,Zomato
+147,34,Working,Tier2,9,219,0.55,Biryani,Lunch,0.79,Zomato
+148,22,Student,Tier1,8,317,0.83,Street Food,Dinner,0.61,Zomato
+149,20,Student,Tier2,7,270,0.9,North Indian,Dinner,0.86,Zomato
+150,35,Working,Tier1,9,286,0.51,North Indian,Dinner,0.82,Zomato
+151,31,Working,Tier1,7,277,0.52,North Indian,Dinner,0.67,Zomato
+152,35,Working,Tier1,8,290,0.61,Biryani,Dinner,0.82,Zomato
+153,27,Working,Tier1,4,322,0.69,Fast Food,Lunch,0.85,Zomato
+154,19,Student,Tier2,7,192,0.88,Street Food,Lunch,0.66,Zomato
+155,36,Working,Tier1,8,346,0.56,Fast Food,Dinner,0.7,Zomato
+156,33,Working,Tier1,4,288,0.64,Fast Food,Lunch,0.84,Zomato
+157,28,Working,Tier1,8,252,0.63,Street Food,Lunch,0.82,Zomato
+158,33,Working,Tier1,6,356,0.75,Fast Food,Dinner,0.88,Zomato
+159,25,Student,Tier1,11,369,0.88,Biryani,Lunch,0.67,Zomato
+160,18,Student,Tier1,6,314,0.92,Biryani,Lunch,0.88,Zomato
+161,36,Working,Tier1,7,296,0.59,North Indian,Dinner,0.86,Zomato
+162,33,Working,Tier2,8,224,0.79,Biryani,Dinner,0.71,Zomato
+163,33,Working,Tier2,9,197,0.78,Biryani,Lunch,0.67,Zomato
+164,32,Working,Tier2,5,273,0.52,Street Food,Dinner,0.69,Zomato
+165,21,Student,Tier2,7,223,0.92,Street Food,Lunch,0.74,Zomato
+166,30,Working,Tier1,9,256,0.75,Street Food,Lunch,0.8,Zomato
+167,26,Working,Tier2,8,210,0.69,Fast Food,Lunch,0.63,Zomato
+168,18,Student,Tier2,8,254,0.91,Biryani,Dinner,0.63,Zomato
+169,32,Working,Tier1,6,265,0.76,North Indian,Dinner,0.73,Zomato
+170,28,Working,Tier1,4,306,0.6,North Indian,Dinner,0.66,Zomato
+171,22,Student,Tier1,6,305,0.89,Street Food,Lunch,0.74,Zomato
+172,36,Working,Tier1,4,345,0.71,North Indian,Dinner,0.87,Zomato
+173,35,Working,Tier2,8,268,0.61,North Indian,Dinner,0.61,Zomato
+174,27,Working,Tier2,9,211,0.79,Biryani,Dinner,0.8,Zomato
+175,25,Student,Tier1,13,266,0.99,Biryani,Dinner,0.65,Zomato
+176,26,Working,Tier1,8,298,0.59,Fast Food,Dinner,0.66,Zomato
+177,27,Working,Tier1,4,257,0.69,Fast Food,Dinner,0.85,Zomato
+178,34,Working,Tier1,5,349,0.6,Fast Food,Dinner,0.9,Zomato
+179,35,Working,Tier1,6,338,0.79,North Indian,Dinner,0.77,Zomato
+180,26,Working,Tier1,7,255,0.54,Biryani,Dinner,0.82,Zomato
+181,30,Working,Tier1,7,331,0.72,Biryani,Lunch,0.64,Zomato
+182,32,Working,Tier1,7,273,0.55,Street Food,Dinner,0.78,Zomato
+183,18,Student,Tier1,11,264,0.95,Fast Food,Lunch,0.66,Zomato
+184,19,Student,Tier2,11,233,0.99,Street Food,Lunch,0.69,Zomato
+185,32,Working,Tier2,5,241,0.71,Biryani,Dinner,0.78,Zomato
+186,28,Working,Tier1,4,330,0.54,Fast Food,Dinner,0.82,Zomato
+187,27,Working,Tier1,8,278,0.52,North Indian,Lunch,0.61,Zomato
+188,27,Working,Tier1,7,255,0.68,Street Food,Dinner,0.86,Zomato
+189,33,Working,Tier2,6,223,0.8,Fast Food,Lunch,0.6,Zomato
+190,18,Student,Tier2,13,256,0.98,Biryani,Dinner,0.76,Zomato
+191,21,Student,Tier1,6,297,0.99,Biryani,Dinner,0.89,Zomato
+192,27,Working,Tier1,4,364,0.72,Fast Food,Lunch,0.64,Zomato
+193,20,Student,Tier1,12,252,0.97,Biryani,Dinner,0.79,Zomato
+194,23,Student,Tier2,9,257,0.94,Biryani,Lunch,0.73,Zomato
+195,33,Working,Tier1,8,260,0.62,Biryani,Lunch,0.8,Zomato
+196,35,Working,Tier1,8,264,0.51,Street Food,Dinner,0.84,Zomato
+197,23,Student,Tier2,11,250,0.95,Street Food,Dinner,0.8,Zomato
+198,21,Student,Tier2,9,202,0.84,North Indian,Lunch,0.78,Zomato
+199,23,Student,Tier2,6,269,0.82,Street Food,Dinner,0.63,Zomato
+200,25,Student,Tier2,9,187,0.91,Biryani,Lunch,0.76,Zomato
+201,20,Student,Tier2,13,244,0.81,North Indian,Dinner,0.76,Zomato
+202,29,Working,Tier1,9,307,0.75,Biryani,Dinner,0.85,Zomato
+203,23,Student,Tier1,8,286,0.91,North Indian,Lunch,0.85,Zomato
+204,36,Working,Tier1,6,280,0.59,North Indian,Dinner,0.69,Zomato
+205,35,Working,Tier1,8,354,0.56,North Indian,Lunch,0.83,Zomato
+206,26,Working,Tier1,5,294,0.68,Biryani,Lunch,0.84,Zomato
+207,31,Working,Tier1,8,298,0.54,Fast Food,Lunch,0.78,Zomato
+208,32,Working,Tier2,9,235,0.71,North Indian,Lunch,0.71,Zomato
+209,29,Working,Tier2,6,254,0.63,Fast Food,Dinner,0.62,Zomato
+210,32,Working,Tier1,6,298,0.61,Fast Food,Dinner,0.82,Zomato
+211,20,Student,Tier1,12,284,0.93,North Indian,Dinner,0.82,Zomato
+212,33,Working,Tier1,5,341,0.66,Street Food,Dinner,0.76,Zomato
+213,22,Student,Tier1,8,252,0.85,Fast Food,Dinner,0.66,Zomato
+214,26,Working,Tier2,7,279,0.55,Fast Food,Dinner,0.61,Zomato
+215,25,Student,Tier1,10,319,0.82,Street Food,Dinner,0.65,Zomato
+216,31,Working,Tier2,7,244,0.74,Fast Food,Lunch,0.7,Zomato
+217,34,Working,Tier1,8,340,0.56,Street Food,Dinner,0.86,Zomato
+218,19,Student,Tier1,12,260,0.87,Fast Food,Dinner,0.73,Zomato
+219,33,Working,Tier1,5,367,0.62,North Indian,Lunch,0.72,Zomato
+220,34,Working,Tier1,6,289,0.57,Street Food,Lunch,0.73,Zomato
+221,24,Student,Tier1,6,297,0.88,Fast Food,Dinner,0.61,Zomato
+222,27,Working,Tier1,5,262,0.66,Biryani,Lunch,0.76,Zomato
+223,26,Working,Tier2,7,202,0.73,Biryani,Dinner,0.64,Zomato
+224,31,Working,Tier2,9,248,0.7,Biryani,Lunch,0.85,Zomato
+225,35,Working,Tier1,4,292,0.56,Fast Food,Dinner,0.78,Zomato
+226,20,Student,Tier1,8,281,0.87,North Indian,Dinner,0.83,Zomato
+227,28,Working,Tier1,4,333,0.58,Fast Food,Lunch,0.7,Zomato
+228,35,Working,Tier1,8,304,0.69,Street Food,Dinner,0.76,Zomato
+229,25,Student,Tier2,8,219,0.84,Fast Food,Dinner,0.83,Zomato
+230,27,Working,Tier2,7,220,0.69,Biryani,Dinner,0.68,Zomato
+231,24,Student,Tier1,7,357,0.97,Fast Food,Dinner,0.9,Zomato
+232,30,Working,Tier2,9,201,0.51,Fast Food,Lunch,0.67,Zomato
+233,33,Working,Tier1,7,323,0.65,North Indian,Dinner,0.82,Zomato
+234,28,Working,Tier1,6,353,0.59,Fast Food,Lunch,0.67,Zomato
+235,23,Student,Tier1,7,328,0.97,Biryani,Lunch,0.88,Zomato
+236,25,Student,Tier2,12,189,0.81,North Indian,Dinner,0.67,Zomato
+237,31,Working,Tier1,5,291,0.67,Fast Food,Dinner,0.82,Zomato
+238,26,Working,Tier1,8,356,0.68,Fast Food,Lunch,0.64,Zomato
+239,34,Working,Tier2,7,276,0.72,Biryani,Lunch,0.85,Zomato
+240,27,Working,Tier1,9,282,0.69,Fast Food,Lunch,0.9,Zomato
+241,27,Working,Tier1,9,361,0.63,North Indian,Lunch,0.63,Zomato
+242,27,Working,Tier2,8,199,0.79,Street Food,Lunch,0.77,Zomato
+243,20,Student,Tier2,13,230,0.91,Biryani,Dinner,0.81,Zomato
+244,23,Student,Tier2,8,251,0.84,Fast Food,Dinner,0.86,Zomato
+245,22,Student,Tier1,11,267,0.91,North Indian,Lunch,0.79,Zomato
+246,18,Student,Tier1,10,309,0.92,North Indian,Dinner,0.69,Zomato
+247,21,Student,Tier2,13,254,0.86,Fast Food,Dinner,0.7,Zomato
+248,25,Student,Tier1,8,326,0.86,Street Food,Dinner,0.82,Zomato
+249,18,Student,Tier1,8,312,0.97,Street Food,Dinner,0.63,Zomato
+250,25,Student,Tier2,11,202,0.89,North Indian,Dinner,0.65,Zomato
+251,19,Student,Tier2,10,257,0.94,Street Food,Lunch,0.69,Zomato
+252,28,Working,Tier1,4,341,0.53,North Indian,Lunch,0.88,Zomato
+253,29,Working,Tier2,5,239,0.53,Biryani,Dinner,0.73,Zomato
+254,22,Student,Tier1,13,317,0.97,Fast Food,Dinner,0.72,Zomato
+255,34,Working,Tier1,6,332,0.69,Fast Food,Dinner,0.84,Zomato
+256,19,Student,Tier1,10,301,0.87,Biryani,Dinner,0.88,Zomato
+257,32,Working,Tier2,9,253,0.64,Fast Food,Dinner,0.86,Zomato
+258,29,Working,Tier1,4,264,0.67,Fast Food,Lunch,0.69,Zomato
+259,20,Student,Tier2,10,237,0.96,Biryani,Dinner,0.75,Zomato
+260,27,Working,Tier1,4,277,0.72,Biryani,Dinner,0.78,Zomato
+261,25,Student,Tier1,9,317,0.99,Street Food,Lunch,0.82,Zomato
+262,20,Student,Tier1,11,334,0.96,North Indian,Lunch,0.85,Zomato
+263,32,Working,Tier1,8,363,0.58,Biryani,Lunch,0.68,Zomato
+264,31,Working,Tier1,7,351,0.58,North Indian,Lunch,0.78,Zomato
+265,31,Working,Tier1,9,288,0.67,Biryani,Dinner,0.65,Zomato
+266,24,Student,Tier1,9,253,0.96,Street Food,Dinner,0.66,Zomato
+267,29,Working,Tier1,7,327,0.53,Street Food,Dinner,0.74,Zomato
+268,32,Working,Tier1,9,283,0.77,Fast Food,Lunch,0.75,Zomato
+269,21,Student,Tier1,13,309,0.94,Fast Food,Lunch,0.7,Zomato
+270,30,Working,Tier2,5,211,0.72,Fast Food,Dinner,0.66,Zomato
+271,21,Student,Tier1,9,297,0.98,Biryani,Dinner,0.69,Zomato
+272,21,Student,Tier2,7,242,0.95,North Indian,Lunch,0.68,Zomato
+273,21,Student,Tier1,12,326,0.86,Biryani,Dinner,0.84,Zomato
+274,18,Student,Tier2,7,185,0.8,Fast Food,Dinner,0.68,Zomato
+275,25,Student,Tier2,9,260,0.8,Biryani,Dinner,0.81,Zomato
+276,24,Student,Tier1,12,257,0.91,Fast Food,Dinner,0.64,Zomato
+277,33,Working,Tier1,7,335,0.74,Street Food,Dinner,0.78,Zomato
+278,19,Student,Tier1,9,282,0.97,Biryani,Dinner,0.69,Zomato
+279,33,Working,Tier1,5,312,0.5,Fast Food,Dinner,0.86,Zomato
+280,18,Student,Tier1,7,329,0.89,Street Food,Dinner,0.67,Zomato
+281,36,Working,Tier2,9,248,0.57,Street Food,Dinner,0.69,Zomato
+282,34,Working,Tier1,6,280,0.62,Fast Food,Lunch,0.61,Zomato
+283,26,Working,Tier1,4,308,0.71,Biryani,Dinner,0.7,Zomato
+284,29,Working,Tier1,8,268,0.59,Biryani,Dinner,0.75,Zomato
+285,31,Working,Tier2,4,269,0.6,Street Food,Dinner,0.62,Zomato
+286,28,Working,Tier2,9,188,0.62,Street Food,Lunch,0.6,Zomato
+287,34,Working,Tier1,5,251,0.65,Biryani,Dinner,0.65,Zomato
+288,24,Student,Tier1,8,297,0.93,Street Food,Lunch,0.86,Zomato
+289,23,Student,Tier1,10,324,0.93,Fast Food,Lunch,0.7,Zomato
+290,29,Working,Tier1,8,315,0.72,Fast Food,Lunch,0.71,Zomato
+291,35,Working,Tier2,9,239,0.59,Biryani,Lunch,0.63,Zomato
+292,26,Working,Tier1,8,369,0.61,Street Food,Lunch,0.76,Zomato
+293,35,Working,Tier1,6,325,0.67,Fast Food,Dinner,0.67,Zomato
+294,20,Student,Tier2,11,190,0.97,North Indian,Dinner,0.64,Zomato
+295,35,Working,Tier1,9,326,0.7,Fast Food,Dinner,0.71,Zomato
+296,19,Student,Tier1,7,286,0.99,Biryani,Dinner,0.62,Zomato
+297,25,Student,Tier1,11,326,1,Street Food,Dinner,0.73,Zomato
+298,30,Working,Tier2,5,278,0.66,North Indian,Dinner,0.85,Zomato
+299,19,Student,Tier1,11,276,0.99,North Indian,Lunch,0.87,Zomato
+300,27,Working,Tier1,7,346,0.71,Street Food,Dinner,0.79,Zomato
+301,25,Student,Tier2,12,228,0.94,Street Food,Dinner,0.77,Zomato
+302,19,Student,Tier1,6,277,0.85,Street Food,Lunch,0.88,Zomato
+303,19,Student,Tier2,11,202,0.92,Biryani,Dinner,0.87,Zomato
+304,26,Working,Tier1,8,337,0.55,North Indian,Dinner,0.72,Zomato
+305,32,Working,Tier2,6,269,0.56,Biryani,Dinner,0.63,Zomato
+306,28,Working,Tier2,8,245,0.56,Fast Food,Dinner,0.73,Zomato
+307,29,Working,Tier2,5,199,0.58,North Indian,Dinner,0.84,Zomato
+308,23,Student,Tier1,12,320,0.98,Fast Food,Dinner,0.8,Zomato
+309,25,Student,Tier1,6,286,0.97,North Indian,Lunch,0.71,Zomato
+310,36,Working,Tier2,7,265,0.76,Biryani,Dinner,0.66,Zomato
+311,21,Student,Tier2,8,213,0.85,Biryani,Lunch,0.74,Zomato
+312,20,Student,Tier1,6,364,0.97,Street Food,Lunch,0.75,Zomato
+313,36,Working,Tier1,5,252,0.64,North Indian,Dinner,0.63,Zomato
+314,34,Working,Tier2,8,194,0.74,Fast Food,Lunch,0.65,Zomato
+315,24,Student,Tier1,9,251,0.85,Street Food,Dinner,0.9,Zomato
+316,33,Working,Tier2,5,182,0.55,Street Food,Dinner,0.63,Zomato
+317,31,Working,Tier2,7,215,0.71,Street Food,Dinner,0.67,Zomato
+318,18,Student,Tier1,9,288,0.86,Fast Food,Dinner,0.83,Zomato
+319,29,Working,Tier1,5,349,0.61,Biryani,Dinner,0.67,Zomato
+320,27,Working,Tier1,5,363,0.68,Biryani,Dinner,0.61,Zomato
+321,23,Student,Tier1,13,359,0.88,Biryani,Lunch,0.78,Zomato
+322,19,Student,Tier1,10,272,0.91,Street Food,Dinner,0.88,Zomato
+323,24,Student,Tier1,8,297,0.81,North Indian,Dinner,0.77,Zomato
+324,18,Student,Tier2,6,213,0.91,Biryani,Dinner,0.85,Zomato
+325,35,Working,Tier1,8,272,0.59,Street Food,Dinner,0.64,Zomato
+326,34,Working,Tier2,9,192,0.61,Street Food,Lunch,0.81,Zomato
+327,33,Working,Tier1,9,305,0.62,Street Food,Dinner,0.83,Zomato
+328,27,Working,Tier1,6,290,0.73,Fast Food,Lunch,0.83,Zomato
+329,20,Student,Tier1,6,319,0.87,Street Food,Dinner,0.81,Zomato
+330,19,Student,Tier2,10,244,0.85,Fast Food,Lunch,0.65,Zomato
+331,31,Working,Tier1,7,250,0.54,Street Food,Lunch,0.76,Zomato
+332,20,Student,Tier2,12,222,0.87,North Indian,Dinner,0.73,Zomato
+333,29,Working,Tier2,7,201,0.73,Street Food,Dinner,0.68,Zomato
+334,29,Working,Tier1,9,361,0.61,Street Food,Dinner,0.62,Zomato
+335,22,Student,Tier1,6,350,0.88,Street Food,Dinner,0.63,Zomato
+336,32,Working,Tier2,5,208,0.74,Street Food,Dinner,0.66,Zomato
+337,23,Student,Tier1,13,288,0.86,Biryani,Lunch,0.88,Zomato
+338,26,Working,Tier1,8,363,0.66,Biryani,Lunch,0.89,Zomato
+339,33,Working,Tier1,5,352,0.52,Fast Food,Lunch,0.83,Zomato
+340,22,Student,Tier2,12,198,0.98,North Indian,Dinner,0.83,Zomato
+341,34,Working,Tier1,6,351,0.68,Biryani,Dinner,0.76,Zomato
+342,21,Student,Tier2,12,274,0.81,Biryani,Dinner,0.82,Zomato
+343,25,Student,Tier1,9,309,0.87,Fast Food,Lunch,0.87,Zomato
+344,34,Working,Tier1,7,332,0.72,North Indian,Dinner,0.89,Zomato
+345,23,Student,Tier1,10,328,0.98,North Indian,Dinner,0.72,Zomato
+346,36,Working,Tier1,7,340,0.67,Biryani,Lunch,0.83,Zomato
+347,19,Student,Tier2,8,228,0.8,North Indian,Dinner,0.74,Zomato
+348,20,Student,Tier1,12,287,0.8,Street Food,Dinner,0.9,Zomato
+349,20,Student,Tier1,7,351,0.99,Fast Food,Dinner,0.85,Zomato
+350,28,Working,Tier1,8,330,0.69,Fast Food,Dinner,0.85,Zomato
+351,24,Student,Tier2,8,219,0.96,Biryani,Lunch,0.79,Zomato
+352,24,Student,Tier2,11,192,0.85,Biryani,Lunch,0.76,Zomato
+353,25,Student,Tier2,8,185,1,Fast Food,Lunch,0.72,Zomato
+354,36,Working,Tier2,4,186,0.78,North Indian,Dinner,0.66,Zomato
+355,33,Working,Tier1,6,253,0.63,Biryani,Lunch,0.84,Zomato
+356,35,Working,Tier1,6,317,0.75,North Indian,Lunch,0.64,Zomato
+357,24,Student,Tier1,13,309,0.83,Fast Food,Dinner,0.7,Zomato
+358,28,Working,Tier2,7,206,0.67,Fast Food,Dinner,0.71,Zomato
+359,23,Student,Tier2,6,264,0.98,Biryani,Dinner,0.77,Zomato
+360,36,Working,Tier2,8,256,0.64,North Indian,Dinner,0.7,Zomato
+361,34,Working,Tier2,5,257,0.51,Fast Food,Lunch,0.78,Zomato
+362,22,Student,Tier2,13,241,0.87,Fast Food,Dinner,0.84,Zomato
+363,35,Working,Tier2,8,198,0.68,Street Food,Lunch,0.64,Zomato
+364,33,Working,Tier1,9,258,0.71,Biryani,Dinner,0.76,Zomato
+365,28,Working,Tier1,4,269,0.62,North Indian,Dinner,0.74,Zomato
+366,27,Working,Tier2,7,269,0.67,Fast Food,Dinner,0.79,Zomato
+367,19,Student,Tier1,12,348,0.83,Biryani,Dinner,0.69,Zomato
+368,20,Student,Tier1,12,308,0.88,Fast Food,Dinner,0.67,Zomato
+369,34,Working,Tier1,8,263,0.77,Fast Food,Dinner,0.88,Zomato
+370,27,Working,Tier1,4,283,0.78,Fast Food,Lunch,0.61,Zomato
+371,29,Working,Tier1,6,356,0.71,Street Food,Lunch,0.87,Zomato
+372,29,Working,Tier1,4,296,0.6,Biryani,Lunch,0.79,Zomato
+373,31,Working,Tier2,9,181,0.6,Street Food,Dinner,0.64,Zomato
+374,27,Working,Tier1,5,334,0.68,Fast Food,Lunch,0.86,Zomato
+375,32,Working,Tier1,8,280,0.69,North Indian,Dinner,0.61,Zomato
+376,34,Working,Tier1,9,355,0.51,Street Food,Lunch,0.66,Zomato
+377,34,Working,Tier2,8,205,0.52,Street Food,Dinner,0.84,Zomato
+378,25,Student,Tier2,13,247,0.82,Biryani,Dinner,0.76,Zomato
+379,21,Student,Tier2,7,233,0.97,Biryani,Dinner,0.8,Zomato
+380,30,Working,Tier2,6,200,0.58,Street Food,Dinner,0.61,Zomato
+381,21,Student,Tier1,6,292,0.91,Fast Food,Dinner,0.88,Zomato
+382,26,Working,Tier1,9,322,0.74,North Indian,Dinner,0.9,Zomato
+383,33,Working,Tier2,8,187,0.77,Biryani,Lunch,0.71,Zomato
+384,20,Student,Tier1,13,344,0.94,Biryani,Dinner,0.71,Zomato
+385,32,Working,Tier1,6,313,0.59,Fast Food,Dinner,0.88,Zomato
+386,19,Student,Tier1,6,295,0.83,Biryani,Dinner,0.79,Zomato
+387,24,Student,Tier1,9,319,0.98,Fast Food,Lunch,0.61,Zomato
+388,26,Working,Tier1,4,296,0.68,Biryani,Lunch,0.62,Zomato
+389,27,Working,Tier1,6,309,0.62,Street Food,Dinner,0.86,Zomato
+390,28,Working,Tier1,7,254,0.75,Biryani,Lunch,0.79,Zomato
+391,24,Student,Tier1,9,276,0.94,Street Food,Dinner,0.89,Zomato
+392,24,Student,Tier1,6,361,0.88,North Indian,Dinner,0.75,Zomato
+393,34,Working,Tier1,9,278,0.56,North Indian,Lunch,0.83,Zomato
+394,32,Working,Tier1,6,348,0.64,Street Food,Lunch,0.63,Zomato
+395,34,Working,Tier2,9,218,0.77,Fast Food,Dinner,0.89,Zomato
+396,33,Working,Tier1,8,259,0.66,Fast Food,Dinner,0.66,Zomato
+397,34,Working,Tier1,5,255,0.56,Street Food,Dinner,0.75,Zomato
+398,29,Working,Tier1,8,325,0.58,Fast Food,Dinner,0.71,Zomato
+399,36,Working,Tier1,5,284,0.64,Fast Food,Dinner,0.9,Zomato
+400,31,Working,Tier2,4,198,0.72,North Indian,Dinner,0.65,Zomato
+401,36,Working,Tier2,8,210,0.53,Biryani,Dinner,0.6,Zomato
+402,28,Working,Tier2,7,224,0.59,North Indian,Dinner,0.73,Zomato
+403,18,Student,Tier1,11,368,0.87,Street Food,Dinner,0.81,Zomato
+404,36,Working,Tier2,9,275,0.77,Fast Food,Dinner,0.61,Zomato
+405,30,Working,Tier2,7,209,0.56,Street Food,Lunch,0.82,Zomato
+406,36,Working,Tier2,5,273,0.53,Street Food,Lunch,0.88,Zomato
+407,27,Working,Tier2,4,208,0.67,Biryani,Lunch,0.82,Zomato
+408,26,Working,Tier2,7,240,0.79,North Indian,Dinner,0.72,Zomato
+409,19,Student,Tier1,13,341,0.99,Street Food,Dinner,0.73,Zomato
+410,21,Student,Tier2,10,233,0.95,Biryani,Dinner,0.83,Zomato
+411,29,Working,Tier2,9,257,0.77,Fast Food,Dinner,0.63,Zomato
+412,18,Student,Tier1,13,340,0.83,Biryani,Dinner,0.83,Zomato
+413,19,Student,Tier2,8,224,0.93,North Indian,Lunch,0.69,Zomato
+414,21,Student,Tier2,10,209,0.9,Street Food,Lunch,0.67,Zomato
+415,34,Working,Tier1,8,369,0.51,North Indian,Lunch,0.88,Zomato
+416,34,Working,Tier2,8,272,0.78,North Indian,Lunch,0.79,Zomato
+417,18,Student,Tier2,12,208,0.97,Fast Food,Dinner,0.68,Zomato
+418,19,Student,Tier1,11,363,0.92,Biryani,Dinner,0.68,Zomato
+419,23,Student,Tier2,10,268,0.94,North Indian,Dinner,0.65,Zomato
+420,26,Working,Tier2,6,246,0.74,Biryani,Dinner,0.7,Zomato
+421,22,Student,Tier1,7,252,0.92,Biryani,Dinner,0.61,Zomato
+422,21,Student,Tier2,11,235,0.99,North Indian,Dinner,0.76,Zomato
+423,22,Student,Tier1,10,302,0.91,Street Food,Lunch,0.74,Zomato
+424,32,Working,Tier2,5,232,0.66,Street Food,Dinner,0.83,Zomato
+425,19,Student,Tier1,11,331,0.89,Fast Food,Dinner,0.78,Zomato
+426,36,Working,Tier2,7,257,0.58,North Indian,Dinner,0.76,Zomato
+427,35,Working,Tier1,4,342,0.69,Fast Food,Dinner,0.72,Zomato
+428,28,Working,Tier2,8,206,0.77,Fast Food,Dinner,0.88,Zomato
+429,26,Working,Tier2,8,237,0.63,North Indian,Dinner,0.76,Zomato
+430,18,Student,Tier1,9,320,0.98,Biryani,Lunch,0.61,Zomato
+431,22,Student,Tier2,8,257,0.95,North Indian,Lunch,0.87,Zomato
+432,27,Working,Tier2,7,238,0.79,North Indian,Dinner,0.76,Zomato
+433,20,Student,Tier2,13,236,0.96,Biryani,Dinner,0.67,Zomato
+434,23,Student,Tier2,9,261,0.81,Fast Food,Lunch,0.67,Zomato
+435,30,Working,Tier1,8,314,0.61,Biryani,Dinner,0.85,Zomato
+436,30,Working,Tier2,9,256,0.79,North Indian,Dinner,0.82,Zomato
+437,18,Student,Tier1,7,356,0.92,Biryani,Dinner,0.8,Zomato
+438,34,Working,Tier2,7,220,0.5,North Indian,Dinner,0.67,Zomato
+439,21,Student,Tier2,10,200,0.87,Fast Food,Dinner,0.61,Zomato
+440,26,Working,Tier1,5,322,0.76,Biryani,Dinner,0.61,Zomato
+441,32,Working,Tier2,8,263,0.76,Street Food,Dinner,0.63,Zomato
+442,31,Working,Tier2,7,250,0.75,Biryani,Lunch,0.74,Zomato
+443,24,Student,Tier2,6,237,0.95,North Indian,Dinner,0.8,Zomato
+444,35,Working,Tier2,7,186,0.72,Fast Food,Lunch,0.67,Zomato
+445,24,Student,Tier1,7,250,0.85,Street Food,Dinner,0.62,Zomato
+446,35,Working,Tier2,8,191,0.61,Biryani,Dinner,0.61,Zomato
+447,29,Working,Tier1,5,308,0.74,Fast Food,Lunch,0.65,Zomato
+448,22,Student,Tier2,8,239,0.89,Biryani,Lunch,0.7,Zomato
+449,20,Student,Tier1,7,339,0.93,Fast Food,Dinner,0.72,Zomato
+450,21,Student,Tier2,8,251,0.9,North Indian,Lunch,0.75,Zomato
+451,19,Student,Tier1,10,274,0.85,Street Food,Dinner,0.81,Zomato
+452,30,Working,Tier2,9,199,0.77,Fast Food,Lunch,0.73,Zomato
+453,26,Working,Tier1,8,293,0.66,North Indian,Dinner,0.61,Zomato
+454,20,Student,Tier2,8,245,0.8,North Indian,Dinner,0.7,Zomato
+455,31,Working,Tier2,7,206,0.78,North Indian,Lunch,0.63,Zomato
+456,23,Student,Tier2,13,196,0.86,Fast Food,Dinner,0.8,Zomato
+457,25,Student,Tier2,12,199,1,North Indian,Lunch,0.77,Zomato
+458,20,Student,Tier2,9,231,0.94,Street Food,Dinner,0.83,Zomato
+459,36,Working,Tier2,7,227,0.74,North Indian,Dinner,0.61,Zomato
+460,26,Working,Tier2,8,273,0.5,Biryani,Dinner,0.86,Zomato
+461,30,Working,Tier2,6,278,0.67,Street Food,Dinner,0.85,Zomato
+462,24,Student,Tier2,6,196,0.8,Biryani,Lunch,0.69,Zomato
+463,34,Working,Tier2,8,246,0.75,Fast Food,Lunch,0.87,Zomato
+464,29,Working,Tier2,6,180,0.58,Fast Food,Dinner,0.75,Zomato
+465,32,Working,Tier2,9,240,0.68,Biryani,Lunch,0.87,Zomato
+466,20,Student,Tier1,9,345,0.98,Street Food,Dinner,0.76,Zomato
+467,23,Student,Tier1,10,251,0.86,Biryani,Dinner,0.68,Zomato
+468,26,Working,Tier1,4,262,0.75,Street Food,Lunch,0.86,Zomato
+469,18,Student,Tier1,13,261,0.98,Street Food,Lunch,0.62,Zomato
+470,29,Working,Tier2,5,248,0.52,North Indian,Dinner,0.66,Zomato
+471,20,Student,Tier1,9,257,0.94,Street Food,Dinner,0.71,Zomato
+472,27,Working,Tier2,7,260,0.64,Street Food,Lunch,0.71,Zomato
+473,34,Working,Tier2,8,234,0.67,North Indian,Dinner,0.88,Zomato
+474,35,Working,Tier2,7,219,0.63,Biryani,Dinner,0.75,Zomato
+475,36,Working,Tier1,4,313,0.8,North Indian,Dinner,0.71,Zomato
+476,31,Working,Tier1,6,272,0.51,North Indian,Dinner,0.64,Zomato
+477,24,Student,Tier1,8,317,0.89,Street Food,Dinner,0.75,Zomato
+478,26,Working,Tier1,5,257,0.62,Fast Food,Dinner,0.65,Zomato
+479,28,Working,Tier1,7,307,0.65,North Indian,Lunch,0.6,Zomato
+480,22,Student,Tier2,10,247,0.81,Fast Food,Dinner,0.8,Zomato
+481,33,Working,Tier2,9,185,0.53,Street Food,Dinner,0.72,Zomato
+482,32,Working,Tier1,4,354,0.65,Fast Food,Lunch,0.84,Zomato
+483,23,Student,Tier2,6,213,0.92,Biryani,Dinner,0.65,Zomato
+484,19,Student,Tier2,7,250,0.92,North Indian,Lunch,0.69,Zomato
+485,31,Working,Tier1,7,308,0.64,Street Food,Lunch,0.88,Zomato
+486,35,Working,Tier1,5,340,0.79,Street Food,Lunch,0.81,Zomato
+487,34,Working,Tier1,4,313,0.64,Fast Food,Lunch,0.71,Zomato
+488,25,Student,Tier2,7,253,0.99,Biryani,Dinner,0.89,Zomato
+489,36,Working,Tier1,9,268,0.53,North Indian,Dinner,0.69,Zomato
+490,33,Working,Tier1,9,284,0.72,Biryani,Dinner,0.89,Zomato
+491,25,Student,Tier1,11,252,0.88,Street Food,Dinner,0.77,Zomato
+492,24,Student,Tier2,11,222,0.91,Fast Food,Dinner,0.66,Zomato
+493,29,Working,Tier2,6,253,0.63,Street Food,Dinner,0.68,Zomato
+494,18,Student,Tier2,12,258,0.82,Biryani,Dinner,0.77,Zomato
+495,34,Working,Tier1,7,298,0.65,Fast Food,Dinner,0.67,Zomato
+496,22,Student,Tier1,9,293,0.93,Street Food,Lunch,0.72,Zomato
+497,30,Working,Tier1,7,291,0.66,Fast Food,Lunch,0.89,Zomato
+498,30,Working,Tier2,9,258,0.51,Biryani,Lunch,0.67,Zomato
+499,23,Student,Tier1,7,264,0.82,Fast Food,Dinner,0.77,Zomato
+500,23,Student,Tier2,13,214,0.91,Fast Food,Lunch,0.74,Zomato
